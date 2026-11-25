@@ -12,7 +12,6 @@ export default defineConfig(({ mode }) => ({
       exposes: {
         "./init": "./src/javascript/init.ts",
       },
-      dts: false,
     }),
   ],
 }));
